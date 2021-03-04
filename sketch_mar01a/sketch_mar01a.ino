@@ -24,11 +24,11 @@ void sendSMS() {
   SIM900.print("AT+CMGF=1\r"); 
   delay(100);
 
-  SIM900.println("AT+CMGS=\"+9779817233070\""); 
+  SIM900.println("AT+CMGS=\"+9779810262925\""); 
   delay(100);
   
   // REPLACE WITH YOUR OWN SMS MESSAGE CONTENT
-  SIM900.println("Nabin is chutiya."); 
+  SIM900.println("Your mobile is hacked."); 
   delay(100);
 
   // End AT command with a ^Z, ASCII code 26
